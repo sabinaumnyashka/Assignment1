@@ -3,119 +3,188 @@
 <html>
     <head>
         <title> My first webpage</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="Favicon.png">
+
+        <style>
+            h2{
+                font-size: 1.5em;
+            }
+        </style>
     </head>
 
     <body>
-        <h1>
-            Name: Sabina Kerimkulova 
-        </h1>
+        <div class="header">
+            
+            <h1 id="main-heading"> 
+                Sabina Kerimkulova 
+            </h1>
+            
+            <h2 class="highlight"> 
+                Media Technologies course 
+            </h2>
+        </div>
 
-        <h2>
-            Course: Media Technologies
-        </h2>
-
-        <h3>
-            About me: 
-        </h3>
-
+        <div class="main-content">
+            
+            <h3 class="highlight">
+                About me: 
+            </h3>
+            
+            <p style="color: rgb(40, 144, 185); font-size: 18px;">
+                Hi! My name is Sabina and I'm Media Technologies student at AITU. That's my first time doing html page so I hope it works.
+            </p>
+            
+            <h3 class="highlight">
+                My photo
+            </h3>
+            
+            
+            <img src="photo.jpg" alt="My photo">
+            
+            <h3>
+                My hobbies
+            </h3>
+            
+            <ol>
+                <li>
+                    Gym
+                </li>
+                
+                <li>
+                    Watching shows
+                </li>
+            </ol>
+            
+            <h3>
+                My fav websites:
+            </h3>
+            
+            <ul>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=VHygTMF98Rw&list=RDVHygTMF98Rw&start_radio=1">
+                        YouTube
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://www.instagram.com/kirsabynka/">
+                        Instagram
+                    </a>
+                </li>
+            </ul>
+            <button>Click Me</button>
+            
+            <h3>Weekly schedule</h3>
+            
+            <table border="1">
+                <tr>
+                    <th>Subject</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+                
+                <tr>
+                    <td>Cinematography & Digital editing</td>
+                    <td>Monday</td>
+                    <td>13:05</td>
+                </tr>
+                
+                <tr>
+                    <td>WEB technologies</td>
+                    <td>Monday</td>
+                    <td>15:00</td>
+                </tr>
+                
+                <tr>
+                    <td>Operating systems</td>
+                    <td>Monday</td>
+                    <td>17:00</td>
+                </tr>
+            
+            </table>
+        
+        </table>
+        
         <p>
-            Hi! My name is Sabina and I'm Media Technologies student at AITU. That's my first time doing html page so I hope it works.
-        </p>
-
-        <h3> My photo </h3>
-        <img src="photo.jpg" alt="My photo">
+            pls make it work🤲😢 i worked hard pls let me get 💯 
+        </p> 
+        
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <br><br>
+            
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" name="color">
+            
+            <br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
 
         <h3>
-            My hobbies:
+            My current goals
         </h3>
 
-        <ol>
-            <li>
-                Gym
-            </li>
-            <li>
-                Watching shows
-            </li>
-        </ol>
+        <div class="goals">
+
+
+            <div class="goal-study">
+                Learn web development
+            </div>
+
+            <div class="goal-project">
+                Create my first website
+            </div>
+
+            <div class="goal-status">
+                In progress
+            </div>
+
+
+        </div>
 
 
         <h3>
-    My fav websites:
-</h3>
+            More about me
+        </h3>
 
-<ul>
-    <li>
-        <a href="https://www.youtube.com/watch?v=VHygTMF98Rw&list=RDVHygTMF98Rw&start_radio=1">
-            YouTube
-        </a>
-    </li>
+        <div class="float-section">
 
-    <li>
-        <a href="https://www.instagram.com/kirsabynka/">
-            Instagram
-        </a>
-    </li>
-</ul>
+            <div class="left-box">
+                <h4>My strenghths</h4>
+                <p>
+                    Creativity, teamwork, communication
+                </p>
+        </div>
 
-<button>Click Me</button>
+        <div class="right-box">
+            <h4>
+                Skills I want to learn
+            </h4>
 
-<h3>weekly schedule</h3>
+            <p>
+                Web development, design, content creation
+            </p>
+        </div>
 
-<table border="1">
-    
-    <tr>
-        <th>Subject</th>
-        <th>Day</th>
-        <th>Time</th>
-    </tr>
+        <div class="clear"
 
-    <tr>
-        <td>Cinematography & Digital editing</td>
-        <td>Monday</td>
-        <td>13:05</td>
-    </tr>
+</div>
 
-    <tr>
-        <td>WEB technologies</td>
-        <td>Monday</td>
-        <td>15:00</td>
-    </tr>
-
-    <tr>
-        <td>Operating systems</td>
-        <td>Monday</td>
-        <td>17:00</td>
-    </tr>
-
-</table>
-
-</table>
-
-<p>
-    pls make it work🤲😢 i worked hard pls let me get 💯
-</p> 
-
-<form>
-
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name">
-
-    <br><br>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email">
-
-    <br><br>
-
-    <label for="color">Favorite Color:</label>
-    <input type="color" id="color" name="color">
-
-    <br><br>
-
-            <input type="submit" value="Submit">
-
-
-</form>
+<div class="footer">
+    <p>
+        My first
+    </p>
+</div>
 
     </body>
 
